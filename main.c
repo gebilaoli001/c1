@@ -17,16 +17,24 @@ int main()
         int code;
         scanf("%d", &code);
 
-        if (code == 1)
+        if(code == 1)
+        {
+            printf("qingshurucunqianjine:\n");
+            int cun;
+            scanf("%d",&cun);
+            qian+=cun;
+            printf("cunruchenggong,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+        }
+        if(code == 2)
         {
         }
-        if (code == 2)
+        if(code == 3)
         {
         }
-        if (code == 3)
-        {
-        }
-        if (code == 4)
+        if(code == 4)
         {
         }
     }
