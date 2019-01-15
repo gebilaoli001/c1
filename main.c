@@ -33,6 +33,11 @@ int main()
         }
         if(code == 3)
         {
+            printf("%d\n",qian);
+            printf("dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if(code == 4)
         {
