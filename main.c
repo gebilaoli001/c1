@@ -41,6 +41,8 @@ int main()
         }
         if(code == 4)
         {
+            printf("tuichuchengxu\n");
+            break;
         }
     }
 
