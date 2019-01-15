@@ -33,11 +33,19 @@ int main()
             printf("qingshuruquqianjine:\n");
             int qu;
             scanf("%d",&qu);
-            qian-=qu;
-            printf("dianjihuichejixu\n");
-            char x;
-            scanf("%c",&x);
-            scanf("%c",&x);
+            if(qian>qu){
+                qian-=qu;
+                printf("quqianchenggong,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }else{
+                printf("yuebuzu,quqianshibai\n");
+                printf("dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
         }
         if(code == 3)
         {
